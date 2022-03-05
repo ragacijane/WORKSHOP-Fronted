@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="stil.css">
+    <script src="scriptlogin.js"></script>
+</head>
+<body onload="initialize()">
+    <h1>Register</h1>
+    <div class="form">
+        <label for="userName">Username: </label>
+        <br><span class="error" id="userNameErr"></span>
+        <input type="text" id="userName" placeholder="Your username...">
+
+        <label for="mail">Mail:</label>
+        <br><span class="error" id="mailErr"></span>
+        <input type="text" id="mail" placeholder="Your mail...">
+
+        <label for="phone">Phone:</label>
+        <br><span class="error" id="phoneErr"></span>
+        <input type="text" id="phone" placeholder="Your phone in format:  +381 6x xxx-xxx(x)...">
+        
+        <label for="password">Password:</label>
+        <br><span class="error" id="passwordErr"></span>
+        <input type="text" id="password" placeholder="Your password...">
+
+        <label for="repassword">Re-password: </label>
+        <br><span class="error" id="repasswordErr"></span>
+        <input type="text" id="repassword" placeholder="Re-enter your password...">
+
+        <button onclick="register()">Register</button>
+        <hr>
+        <span>
+            Already have account? Log in <a href="login.html">here</a>
+        </span>
+    </div>
+</body>
+</html>

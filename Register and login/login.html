@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="stil.css">
+    <script src="scriptlogin.js"></script>
+</head>
+<body onload="initialize()">
+    <h1>LogIn</h1>
+    <div class="form">
+        <label for="userName">Username:</label>
+        <br><span class="error" id="userNameErr"></span>
+        <input type="text" id="userName" placeholder="Your username...">
+        
+        <label for="password">Password:</label>
+        <br><span class="error" id="passwordErr"></span>
+        <input type="text" id="password" placeholder="Your password...">
+
+        <button onclick="login()">Log In</button>
+        <hr>
+        <span>
+            Dont have account? Register <a href="register.html">here</a>
+        </span>
+    </div>
+</body>
+</html>
