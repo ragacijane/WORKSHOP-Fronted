@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="arraymanipscript.js"></script>
+</head>
+<body id="body" onload="initialize()">
+
+    <p id="textbox">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci animi aperiam at commodi debitis dignissimos dolore dolorem ducimus eveniet ipsa ipsum iste itaque iusto labore magni minus nam necessitatibus nulla numquam quae sint sit tenetur, unde ut vero voluptatem, voluptates. Alias beatae consequuntur deleniti impedit iure laudantium neque odio voluptatem?
+    </p>
+
+    <label for="word">
+        Word:
+    </label>
+        <input type="text" id="word" placeholder="Put a word">
+    <br>
+    <label for="word2">
+        Word:
+    </label>
+        <input type="text" id="word2" placeholder="Put a second word">
+    <br>
+    <label for="index1">
+        Index 1:
+    </label>
+        <input type="text" id="index1" placeholder="Put index">
+    <br>
+    <label for="index2">
+        Index 2:
+    </label>
+        <input type="text" id="index2" placeholder="Put index">
+
+    <hr>
+
+    <label for="firstindbtn">
+        Find first index?
+    </label>
+    <button id="firstindbtn" onclick="firstIndBtn()">
+        Find
+    </button>
+
+    <hr>
+
+    <label for="lastindbtn">
+        Find last index?
+    </label>
+    <button id="lastindbtn" onclick="lastIndBtn()">
+        Find
+    </button>
+
+    <hr>
+
+    <label for="prntallinclude">
+        All words that include?
+    </label>
+    <button id="prntallinclude" onclick="prntAllInclude()">F
+        Find
+    </button>
+
+    <hr>
+
+    <label for="between">
+        Text between index?
+    </label>
+    <button id="between" onclick="between()">
+        Find
+    </button>
+
+    <hr>
+
+    <label for="change">
+        Change words?
+    </label><button id="change" onclick="change()">
+        Find
+    </button>
+
+    <hr>
+
+    <label for="deleteW">
+        Delete word?
+    </label>
+    <button id="deleteW" onclick="deleteW()">
+        Find
+    </button>
+
+    <hr>
+
+    <h2>Result: </h2>
+    <p id="result"></p>
+</body>
+</html>
